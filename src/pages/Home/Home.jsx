@@ -395,6 +395,114 @@ const PagesHome = () => {
                 />
               </Col>
             </Row>
+
+            <Row className="rows">
+              <span id="dias">DIA 8: </span>
+              <Col md="1">
+                <Input
+                  className="inputes"
+                  id="dia8"
+                  name="lucro"
+                  placeholder="R$"
+                  type="number"
+                  step="0.01"
+                  min="0"
+                  onKeyUp={somalucro}
+                />
+              </Col>
+
+              <Col md={1}>
+                <Input
+                  className="inputes"
+                  name="banca"
+                  placeholder="R$"
+                  type="number"
+                  id="banca8"
+                />
+              </Col>
+
+              <Col md={1}>
+                <Input
+                  className="inputes"
+                  name="meta"
+                  placeholder="Atingiu / Não atingiu"
+                  type="text"
+                  disabled
+                />
+              </Col>
+            </Row>
+
+            <Row className="rows">
+              <span id="dias">DIA 9: </span>
+              <Col md="1">
+                <Input
+                  className="inputes"
+                  id="dia9"
+                  name="lucro"
+                  placeholder="R$"
+                  type="number"
+                  step="0.01"
+                  min="0"
+                  onKeyUp={somalucro}
+                />
+              </Col>
+
+              <Col md={1}>
+                <Input
+                  className="inputes"
+                  name="banca"
+                  placeholder="R$"
+                  type="number"
+                  id="banca9"
+                />
+              </Col>
+
+              <Col md={1}>
+                <Input
+                  className="inputes"
+                  name="meta"
+                  placeholder="Atingiu / Não atingiu"
+                  type="text"
+                  disabled
+                />
+              </Col>
+            </Row>
+
+            <Row className="rows">
+              <span id="dias">DIA10: </span>
+              <Col md="1">
+                <Input
+                  className="inputes"
+                  id="dia10"
+                  name="lucro"
+                  placeholder="R$"
+                  type="number"
+                  step="0.01"
+                  min="0"
+                  onKeyUp={somalucro}
+                />
+              </Col>
+
+              <Col md={1}>
+                <Input
+                  className="inputes"
+                  name="banca"
+                  placeholder="R$"
+                  type="number"
+                  id="banca10"
+                />
+              </Col>
+
+              <Col md={1}>
+                <Input
+                  className="inputes"
+                  name="meta"
+                  placeholder="Atingiu / Não atingiu"
+                  type="text"
+                  disabled
+                />
+              </Col>
+            </Row>
           </div>
         </Form>
         <div id="barchart">
